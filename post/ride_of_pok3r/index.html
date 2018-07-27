@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <title>Ride of Pok3r</title>
+  <meta property="og:title" content="Ride of Pok3r" />
+  <meta name="twitter:title" content="Ride of Pok3r" />
+  <meta name="description" content="This guide for how to programm an ergonomic layout with Pok3r keyboard
+
+
+">
+  <meta property="og:description" content="This guide for how to programm an ergonomic layout with Pok3r keyboard
+
+
+">
+  <meta name="twitter:description" content="This guide for how to programm an ergonomic layout with Pok3r keyboard
+
+
+">
+  <meta name="author" content="Yauheni Kuzmianok"/>
+  <link href='img/favicon.ico' rel='icon' type='image/x-icon'/>
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@nix_org" />
+  <meta name="twitter:creator" content="@nix_org" />
+  <meta property="og:url" content="/post/ride_of_pok3r/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="KreiDer&#39;s Blog" />
+
+  <meta name="generator" content="Hugo 0.45" />
+  <link rel="canonical" href="/post/ride_of_pok3r/" />
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="KreiDer&#39;s Blog">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" integrity="sha384-wITovz90syo1dJWVh32uuETPVEtGigN07tkttEqPv+uR2SE/mbQcG7ATL28aI9H0" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/main.css" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
+  <link rel="stylesheet" href="css/highlight.min.css" /><link rel="stylesheet" href="css/codeblock.css" />
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.css" integrity="sha384-h/L2W9KefUClHWaty3SLE5F/qvc4djlyR4qY3NUV5HGQBBW7stbcfff1+I/vmsHh" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.min.css" integrity="sha384-iD0dNku6PYSIQLyfTOpB06F2KCZJAKLOThS5HRe8b3ibhdEQ6eKsFf/EeFxdOt5R" crossorigin="anonymous">
+
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+</head>
+
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom top-nav-short">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href=""></a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+        
+          
+            <li>
+              <a title="Blog" href="/">Blog</a>
+            </li>
+          
+        
+          
+            <li>
+              <a title="About" href="/page/about/">About</a>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Tags" href="/tags">Tags</a>
+            </li>
+          
+        
+
+        
+
+        
+      </ul>
+    </div>
+
+    <div class="avatar-container">
+      <div class="avatar-img-border">
+        
+      </div>
+    </div>
+
+  </div>
+</nav>
+
+
+
+
+    
+  
+  
+  
+
+
+
+
+  
+
+  <header class="header-section ">
+    
+    <div class="intro-header no-img">
+      
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="post-heading">
+              <h1>Ride of Pok3r</h1>
+                
+                
+                  <span class="post-meta">
+  
+  
+  <i class="fa fa-calendar-o"></i>&nbsp;Posted on July 27, 2018
+  
+  
+  &nbsp;|&nbsp;
+  <i class="fa fa-clock-o"></i> 3 minutes (488 words)
+  
+  
+</span>
+
+
+                
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+    
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+        <p>This guide for how to programm an ergonomic layout with Pok3r keyboard
+<a href="/images/ride_of_pok3r-keyboard-layout.png"><img src="/images/ride_of_pok3r-keyboard-layout.png" alt="" /></a></p>
+
+<p></p>
+
+<p>Here we are going to remap the default pok3r keys to more suitable places and it will be much more ergonomic and handy in work I promise.</p>
+
+<p>If you are interesting in details how to setup this keyboard please see
+<a href="http://www.vortexgear.tw/db/upload/webdata4/6vortex%5F20166523361966663.pdf">user manual</a> and <a href="https://www.reddit.com/r/MechanicalKeyboards/wiki/pok3r">reddit wiki</a></p>
+
+<p>Some people prefer to have <code>hjkl</code> in opposite of my <code>ijkl</code> and I understand them as they are VIM users but I&rsquo;m emacs user and use emacs on daily basis.
+I was inspired by <a href="http://xahlee.info/">Xah Lee</a> with a lot of efficient articles you can read it <a href="http://ergoemacs.org/">here</a></p>
+
+<h2 id="main-features">Main features:</h2>
+
+<ul>
+<li>Move <kbd>Fn</kbd> to  <kbd>L_Ctrl</kbd> place</li>
+<li><kbd>Capslock</kbd> as <kbd>Esc</kbd> as I often use escape key so capslock is the best place for it</li>
+<li><kbd>Fn</kbd> + <kbd>z</kbd>,<kbd>x</kbd>,<kbd>c</kbd>,<kbd>v</kbd> as regular copy, cut, past operations (it will provide us do copy and paste with only left hand)</li>
+<li><kbd>Fn</kbd> + <kbd>u</kbd> and <kbd>o</kbd> for word navigation</li>
+</ul>
+
+<h2 id="remap">Remap <kbd>Fn</kbd> key to <kbd>L_Ctrl</kbd></h2>
+
+<ul>
+<li>Unplug keyboard from usb</li>
+<li>Switch DIP switch 4 to ON</li>
+<li>Plug keyboard then press <kbd>Fn</kbd> -&gt; <kbd>L_Ctrl</kbd> -&gt; <kbd>Pn</kbd> -&gt; <kbd>Pn</kbd> again (to leave it in its original location)</li>
+<li>Switch DIP 4 back to OFF</li>
+</ul>
+
+<p><a href="/images/ride_of_pok3r-palm_pressing_control_key_from_youngstabber.jpg"><img src="/images/ride_of_pok3r-palm_pressing_control_key_from_youngstabber.jpg" alt="" /></a>
+So from now you able to press <kbd>Fn</kbd> by your palm as on image below to avoid RSI and issues with your pinky.</p>
+
+<h2 id="enter-to-programming-mode">Enter to programming mode</h2>
+
+<ul>
+<li>Switch to any layer for example <kbd>Fn</kbd> + <kbd>,</kbd></li>
+<li>Press <kbd>Fn</kbd> + <kbd>R_Ctrl</kbd> to enter programming (Don&rsquo;t forget that <kbd>Fn</kbd> aleady on left side)</li>
+<li>To map something you need to press key that you want to remap then result key and <kbd>Pn</kbd> key in end of each sequence:
+
+<ul>
+<li><kbd>L_Win</kbd> -&gt; <kbd>L_Alt</kbd> -&gt; <kbd>Pn</kbd></li>
+<li><kbd>L_Alt</kbd> -&gt; <kbd>L_Win</kbd> -&gt; <kbd>Pn</kbd></li>
+<li><kbd>R_Alt</kbd> -&gt; <kbd>L_Win</kbd> -&gt; <kbd>Pn</kbd></li>
+<li><kbd>CapsLock</kbd> -&gt; <kbd>Escape</kbd> -&gt; <kbd>Pn</kbd></li>
+<li><kbd>Escape</kbd> -&gt; <kbd>Fn</kbd> + <kbd>Escape</kbd> -&gt; <kbd>Pn</kbd></li>
+<li><kbd>Fn</kbd> + <kbd>z</kbd> -&gt; <kbd>L_Win</kbd> + <kbd>z</kbd> -&gt; <kbd>Pn</kbd></li>
+<li><kbd>Fn</kbd> + <kbd>x</kbd> -&gt; <kbd>L_Win</kbd> + <kbd>x</kbd> -&gt; <kbd>Pn</kbd></li>
+<li><kbd>Fn</kbd> + <kbd>c</kbd> -&gt; <kbd>L_Win</kbd> + <kbd>c</kbd> -&gt; <kbd>Pn</kbd></li>
+<li><kbd>Fn</kbd> + <kbd>v</kbd> -&gt; <kbd>L_Win</kbd> + <kbd>v</kbd> -&gt; <kbd>Pn</kbd></li>
+<li><kbd>Fn</kbd> + <kbd>w</kbd> -&gt; <kbd>L_Win</kbd> + <kbd>w</kbd> -&gt; <kbd>Pn</kbd></li>
+<li><kbd>Fn</kbd> + <kbd>a</kbd> -&gt; <kbd>L_Win</kbd> + <kbd>a</kbd> -&gt; <kbd>Pn</kbd></li>
+<li><kbd>Fn</kbd> + <kbd>;</kbd> -&gt; <kbd>Fn</kbd> + <kbd>n</kbd> -&gt; <kbd>Pn</kbd></li>
+<li><kbd>Fn</kbd> + <kbd>u</kbd> -&gt; <kbd>L_Alt</kbd> + <kbd>Left</kbd> -&gt; <kbd>Pn</kbd></li>
+<li><kbd>Fn</kbd> + <kbd>o</kbd> -&gt; <kbd>L_Alt</kbd> + <kbd>Right</kbd> -&gt; <kbd>Pn</kbd></li>
+<li><kbd>Fn</kbd> + <kbd>9</kbd> -&gt; <kbd>Fn</kbd> + <kbd>u</kbd> -&gt; <kbd>Pn</kbd></li>
+<li><kbd>Fn</kbd> + <kbd>0</kbd> -&gt; <kbd>Fn</kbd> + <kbd>o</kbd> -&gt; <kbd>Pn</kbd></li>
+</ul></li>
+</ul>
+
+<h2 id="here-are-compleated-list-of-keys">Here are compleated list of keys:</h2>
+
+<table>
+<thead>
+<tr>
+<th>Key from</th>
+<th>Key to</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>L_Ctrl</td>
+<td>Fn</td>
+</tr>
+
+<tr>
+<td>L_Win</td>
+<td>Option</td>
+</tr>
+
+<tr>
+<td>L_Alt</td>
+<td>Cmd</td>
+</tr>
+
+<tr>
+<td>R_Alt</td>
+<td>Cmd</td>
+</tr>
+
+<tr>
+<td>CapsLock</td>
+<td>Escape</td>
+</tr>
+
+<tr>
+<td>Escape</td>
+<td>`</td>
+</tr>
+
+<tr>
+<td>Shift + Espcape</td>
+<td>~</td>
+</tr>
+
+<tr>
+<td>fn + z</td>
+<td>Cmd + z</td>
+</tr>
+
+<tr>
+<td>fn + x</td>
+<td>Cmd + x</td>
+</tr>
+
+<tr>
+<td>fn + c</td>
+<td>Cmd + c</td>
+</tr>
+
+<tr>
+<td>fn + v</td>
+<td>Cmd + v</td>
+</tr>
+
+<tr>
+<td>fn + w</td>
+<td>Cmd + w</td>
+</tr>
+
+<tr>
+<td>fn + a</td>
+<td>Cmd + a</td>
+</tr>
+
+<tr>
+<td>fn + h</td>
+<td>Home</td>
+</tr>
+
+<tr>
+<td>fn + :</td>
+<td>End</td>
+</tr>
+
+<tr>
+<td>fn + u</td>
+<td>Option + Left</td>
+</tr>
+
+<tr>
+<td>fn + o</td>
+<td>Option + Right</td>
+</tr>
+
+<tr>
+<td>fn + 9</td>
+<td>PgUp</td>
+</tr>
+
+<tr>
+<td>fn + 0</td>
+<td>PgDown</td>
+</tr>
+</tbody>
+</table>
+
+        
+          <div class="blog-tags">
+            
+              <a href="/tags/keyboard/">keyboard</a>&nbsp;
+            
+              <a href="/tags/pok3r/">pok3r</a>&nbsp;
+            
+              <a href="/tags/poker/">poker</a>&nbsp;
+            
+          </div>
+        
+
+        
+      </article>
+
+      
+        <ul class="pager blog-pager">
+          
+          
+        </ul>
+      
+
+
+      
+        
+        
+      
+
+    </div>
+  </div>
+</div>
+
+    <footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links">
+          
+              <li>
+                <a href="mailto:nixorg@gmail.com" title="Email me">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/kreider" title="GitHub">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/nix_org" title="Twitter">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://vk.com/mellc0re" title="VK">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-vk fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+          
+          <li>
+            
+            <a href="/index.xml" title="RSS">
+            
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+        </ul>
+        <p class="credits copyright text-muted">
+          
+            
+              Yauheni Kuzmianok
+            
+          
+
+          &nbsp;&bull;&nbsp;
+          2018
+
+          
+            &nbsp;&bull;&nbsp;
+            <a href="">KreiDer&#39;s Blog</a>
+          
+        </p>
+        
+        <p class="credits theme-by text-muted">
+          <a href="http://gohugo.io">Hugo v0.45</a> powered</a>
+          
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.js" integrity="sha384-/y1Nn9+QQAipbNQWU65krzJralCnuOasHncUFXGkdwntGeSvQicrYkiUBwsgUqc1" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/contrib/auto-render.min.js" integrity="sha384-dq1/gEHSxPZQ7DdrM82ID4YVol9BYyU7GbWlIwnwyPzotpoc57wDw/guX8EaYGPx" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
+<script src="js/highlight.min.js"></script>
+<script> hljs.initHighlightingOnLoad(); </script>
+<script> $(document).ready(function() {$("pre.chroma").css("padding","0");}); </script><script> renderMathInElement(document.body); </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.js" integrity="sha384-QELNnmcmU8IR9ZAykt67vGr9/rZJdHbiWi64V88fCPaOohUlHCqUD/unNN0BXSqy" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe-ui-default.min.js" integrity="sha384-m67o7SkQ1ALzKZIFh4CiTA8tmadaujiTa9Vu+nqPSwDOqHrDmxLezTdFln8077+q" crossorigin="anonymous"></script>
+<script src="js/load-photoswipe.js"></script>
+
+
+
+
+
+
+  </body>
+</html>
+
