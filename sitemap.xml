@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://kreider.github.io/post/karabiner_workflow/</loc>
+    <lastmod>2018-07-31T13:13:00+03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://kreider.github.io/post/ride_of_pok3r/</loc>
     <lastmod>2018-07-27T15:38:00+03:00</lastmod>
   </url>
@@ -17,14 +22,38 @@
   </url>
   
   <url>
+    <loc>https://kreider.github.io/tags/ergonomic/</loc>
+    <lastmod>2018-07-31T13:13:00+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kreider.github.io/tags/karabier/</loc>
+    <lastmod>2018-07-31T13:13:00+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://kreider.github.io/tags/keyboard/</loc>
-    <lastmod>2018-07-27T15:38:00+03:00</lastmod>
+    <lastmod>2018-07-31T13:13:00+03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://kreider.github.io/</loc>
-    <lastmod>2018-07-27T15:38:00+03:00</lastmod>
+    <lastmod>2018-07-31T13:13:00+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kreider.github.io/tags/macbook/</loc>
+    <lastmod>2018-07-31T13:13:00+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kreider.github.io/tags/macos/</loc>
+    <lastmod>2018-07-31T13:13:00+03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -47,13 +76,13 @@
   
   <url>
     <loc>https://kreider.github.io/post/</loc>
-    <lastmod>2018-07-27T15:38:00+03:00</lastmod>
+    <lastmod>2018-07-31T13:13:00+03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://kreider.github.io/tags/</loc>
-    <lastmod>2018-07-27T15:38:00+03:00</lastmod>
+    <lastmod>2018-07-31T13:13:00+03:00</lastmod>
     <priority>0</priority>
   </url>
   

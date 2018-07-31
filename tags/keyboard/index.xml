@@ -7,10 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>nixorg@gmail.com (Yauheni Kuzmianok)</managingEditor>
     <webMaster>nixorg@gmail.com (Yauheni Kuzmianok)</webMaster>
-    <lastBuildDate>Fri, 27 Jul 2018 15:38:00 +0300</lastBuildDate>
+    <lastBuildDate>Tue, 31 Jul 2018 13:13:00 +0300</lastBuildDate>
     
 	<atom:link href="https://kreider.github.io/tags/keyboard/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>IJKL Navigation in Karabiner</title>
+      <link>https://kreider.github.io/post/karabiner_workflow/</link>
+      <pubDate>Tue, 31 Jul 2018 13:13:00 +0300</pubDate>
+      <author>nixorg@gmail.com (Yauheni Kuzmianok)</author>
+      <guid>https://kreider.github.io/post/karabiner_workflow/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m macbook user and have programable keyboard where I use &lt;kbd&gt;Fn&lt;/kbd&gt; + &lt;kbd&gt;I&lt;/kbd&gt;,&lt;kbd&gt;J&lt;/kbd&gt;,&lt;kbd&gt;K&lt;/kbd&gt;,&lt;kbd&gt;L&lt;/kbd&gt;
+instead of arrow keys. This way is more ergonomic as you don&amp;rsquo;t need to move
+your hand if you need use arrows.
+&lt;img src=&#34;https://kreider.github.io/images/karabiner_workflow_arrows.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Ride of Pok3r</title>
